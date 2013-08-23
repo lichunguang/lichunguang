@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>{{ site.name }}{% if page.title %} / {{ page.title }}{% endif %}</title>
 <link href="http://{{ site.host }}/feed.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
-<link rel="stylesheet" type="text/css" href="{{ site.url }}//assets/css/site.css" />
-<link rel="stylesheet" type="text/css" href="{{ site.url }}//assets/css/code/github.css" />
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/{{ baseurl }}/assets/css/site.css" />
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/{{ baseurl }}/assets/css/code/github.css" />
 {% for style in page.styles %}<link rel="stylesheet" type="text/css" href="{{ style }}" />
 {% endfor %}
 </head>
@@ -76,7 +76,7 @@
 <script src="http://cdn.elfjs.com/code/elf-0.4.1-min.js"></script>
 <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
 
-<script src="/assets/js/site.js"></script>
+<script src="{{ site.url }}/{{ baseurl }}/assets/js/site.js"></script>
 {% for script in page.scripts %}<script src="{{ script }}"></script>
 {% endfor %}
 <script>

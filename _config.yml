@@ -1,6 +1,7 @@
 markdown: kramdown
 pygments: true
 safe: false
+baseurl: blog
 exclude:
   - README.md
 
