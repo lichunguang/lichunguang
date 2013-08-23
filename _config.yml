@@ -2,6 +2,7 @@ markdown: kramdown
 pygments: true
 safe: false
 baseurl: http://lichunguang.github.io/lichunguang
+pagecontext: lichunguang
 exclude:
   - README.md
 

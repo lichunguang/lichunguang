@@ -6,7 +6,7 @@
 <meta name="keywords" content="{{ page.tags | join: ',' }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>{{ site.name }}{% if page.title %} / {{ page.title }}{% endif %}</title>
-<link href="http://{{ site.host }}/feed.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
+<link href="http://{{ site.baseurl }}/feed.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/site.css" />
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/code/github.css" />
 {% for style in page.styles %}<link rel="stylesheet" type="text/css" href="{{ style }}" />
@@ -14,8 +14,6 @@
 </head>
 
 <body class="{{ page.pageClass }}">
-<h1>ffffffff{{ baseurl }}</h1><br/>
-<h1>ffffffff{{ site.baseurl }}</h1>
 <div class="main">
 	{{ content }}
 
