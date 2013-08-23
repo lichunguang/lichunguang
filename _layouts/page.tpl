@@ -14,7 +14,8 @@
 </head>
 
 <body class="{{ page.pageClass }}">
-
+<h1>ffffffff{{ baseurl }}</h1><br/>
+<h1>ffffffff{{ site.baseurl }}</h1>
 <div class="main">
 	{{ content }}
 
