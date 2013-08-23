@@ -8,7 +8,7 @@ pageClass: page-type-post
 <div class="trace">/ <a href="/">{{ site.name }}</a> / {{ page.title }}</div>
 
 <article>
-	<h1><a href="/{{ site.pagecontext }}/{{ page.url }}">-{{ site.pagecontext }}-{{ page.title }}</a></h1>
+	<h1><a href="/{{ site.pagecontext }}/{{ page.url }}">发生大幅-{{ site.pagecontext }}-范德萨{{ page.title }}</a></h1>
 	{% assign post = page %}
 	{% include meta.tpl %}
 	{{ content }}
