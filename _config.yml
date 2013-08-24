@@ -1,6 +1,7 @@
 markdown: kramdown
 pygments: true
 safe: false
+permalink: /:month-:day-:year/:title.html
 baseurl: http://lichunguang.github.io/lichunguang
 pagecontext: lichunguang
 exclude:
